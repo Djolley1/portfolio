@@ -31,7 +31,7 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
+    const HeaderTitleTypeAnimation = React.memo(() => {
       return this.titles
     }, (props, prevProp) => true);
 
@@ -45,18 +45,18 @@ class Header extends Component {
           </svg>
         </a>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
-          <Nav.Item> 
+          <Nav.Item>
             <LinkContainer to="/">
               <Nav.Link href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>        
+          <Nav.Item>
             <LinkContainer to="/about">
               <Nav.Link eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
-            <Switch 
+            <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
               offColor="#baaa80"
@@ -98,18 +98,19 @@ class Header extends Component {
             />
           </Nav.Item>
         </Nav>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{ height: '100%' }}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
+              <br />
               <h1 className="mb-0">
-                {name}
+                {'Demarquies Jolley'}
               </h1>
+              <h2>{'Im a former US Army Signal Support Specialist turned entrepreneur and currently a Plant Operator at Dell Seton Hospital. With 6 years in the military, I safeguarded assets worth over $1 million and managed complex security operations. My entrepreneurial stint added leadership and logistics expertise, while my current role showcases my problem-solving skills.'}</h2>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              
+
             </div>
           </div>
         </div>
