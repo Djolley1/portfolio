@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Demarquies Jolley, As a Communications Data Analyst with a robust 3 years of experience, I've honed my skills in safeguarding data integrity and managing security risks within high-stakes environments, such as the Security Operations Center of the US Army. With a knack for problem-solving and a passion for ensuring the protection of valuable assets, I bring extensive expertise in fiber optics, network cabling, and TCP/IP networking to the table. Let's connect and explore how my background in data analytics and communications support can benefit your team!. Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,43 +11,15 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Salmon Cookies",
+        "startDate": "2024",
+        "description": "The very first app that I created it gave me a difficult time with randomization & creating the new cities.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/animal-shelter/salmon1.png",
+          "images/portfolio/animal-shelter/salmon2.png"
         ],
-        "url": "",
+        "url": "https://djolley1.github.io/cookie-stand/",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
@@ -55,63 +27,72 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Odd Duck",
+        "startDate": "2024",
+        "description": "This would be the second project I completed. It gave me a look at how to use data to save information & also how to calculate the info and show it on a graph.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/photography/odd-duck1.png",
+          "images/portfolio/photography/odd-duck2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://djolley1.github.io/odd-duck/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Doyle's Poker",
+        "startDate": "2024",
+        "description": "This would be my first team project. This one was a true test dealing with the sorting functions and determing the correct winner between the user & Doyle.",
+        "images": [
+          "images/portfolio/adventure/doyle1.png",
+          "images/portfolio/adventure/doyle2.png"
+        ],
+        "url": "https://panhandle-programmers.github.io/doyles-poker/",
+        "technologies": [
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "US Army",
+        "title": "Signal Support Specialist",
+        "years": "02.2014 - 03.2020",
         "mainTech": [
-          "Angular 8/9/10"
+          "Cyber Security"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Radios and Communication Equipment",
+          "Satellite Communication Systems",
+          "Networking Equipment",
+          "Computer Systems",
+          "Encryption and Information Security Tools",
+          "Tactical Communication Systems",
+          "Signal Intelligence (SIGINT) Equipment",
+          "Field-Deployable Systems",
+          "Troubleshooting and Maintenance Tools"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Medxcel",
+        "title": "Plant Operator",
+        "years": "11.2021 - Present",
         "mainTech": [
-          "Angular 7/8"
+          "Maintenance"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Building Automation Systems (BAS)",
+          "HVAC Systems",
+          "Electrical Systems",
+          "Plumbing and Water Systems",
+          "Plumbing and Water Systems",
+          "Energy Management Systems (EMS)"
         ]
       }
     ]
